@@ -2035,20 +2035,6 @@ Webflow.define('edit', module.exports = function ($, _, options) {
 
     window.WebflowEditor = true;
     $win.off(hashchange, checkHash);
-    checkThirdPartyCookieSupport(function (thirdPartyCookiesSupported) {
-      $.ajax({
-        url: cleanSlashes("https://editor-api.webflow.com" + '/api/editor/view'),
-        data: {
-          siteId: $html.attr('data-wf-site')
-        },
-        xhrFields: {
-          withCredentials: true
-        },
-        dataType: 'json',
-        crossDomain: true,
-        success: success(thirdPartyCookiesSupported)
-      });
-    });
   }
 
   function success(thirdPartyCookiesSupported) {
