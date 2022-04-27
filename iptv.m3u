@@ -159,3 +159,7 @@ https://d128o1k7zh3htz.cloudfront.net/out/v1/74a58360a3734f97b74ba439bc678044/in
 https://livecbcdai-i.akamaihd.net/hls/live/567245/event2/CBCNN/master5.m3u8
 #EXTINF:-1 group-title="Canada TV",CBC Toronto
 https://cbclivedai1-i.akamaihd.net/hls/live/566940/event2/CBLT/master5.m3u8
+#EXTINF:-1 group-title="凤凰",凤凰资讯
+https://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+#EXTINF:-1 group-title="凤凰",凤凰中文
+https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
